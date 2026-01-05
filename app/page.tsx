@@ -1,8 +1,7 @@
-import ExploreBtn from "@/components/EploreBtn";
-import EventCard from "@/components/EventsCard";
+import ExploreBtn from "@/components/ExploreBtn";
+import EventCard from "@/components/EventCard";
 import {IEvent} from "@/database";
 import {cacheLife} from "next/cache";
-// import events from "@/lib/constants";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
@@ -14,7 +13,7 @@ const Page = async () => {
 
     return (
         <section>
-            <h1 className="text-center">The Hub for Every Dev <br /> Event You Can't Miss</h1>
+            <h1 className="text-center">The Hub for Every Dev <br /> Event You Cant Miss</h1>
             <p className="text-center mt-5">Hackathons, Meetups, and Conferences, All in One Place</p>
 
             <ExploreBtn />
